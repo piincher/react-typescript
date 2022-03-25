@@ -1,8 +1,8 @@
-import  ReactDOM  from "react-dom";
-
+import ReactDOM from "react-dom";
+import { List } from "./state/List";
 
 const App = () => {
-    return <p>dekdbe</p>
+    return <List />
 }
 
-ReactDOM.render(<App/>,document.querySelector("#root"))
+ReactDOM.render(<App />, document.querySelector("#root"))
